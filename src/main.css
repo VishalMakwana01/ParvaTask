@@ -21,6 +21,7 @@
 .team-image {
     width: 200px;
     height: 200px;
+    border-radius: 8px;
 }
 @media (max-width: 640px){
 .team-image {
@@ -55,7 +56,7 @@
 }
 }
 
-.image-content {
+.image-hidden {
     vertical-align: sub;
     text-align: center;
     position: absolute;
@@ -65,14 +66,18 @@
     visibility: hidden;
     opacity: 0;
     border-radius: 8px;
-    width: auto;
-    height: auto;
+    width: 200px;
+    height: 200px;
     transition: opacity .2s,visibility .2s;
 }
+.image-wrapper:hover .image-hidden {
+    visibility: visible;
+    opacity: 1;
+}
 @media (max-width: 640px){
-.image-content {
+.image-hidden {
     height: auto!important;
-    width: auto!important;
+    width: 150px!important;
     align-self: start;
     left: 0;
     border-radius: 2px;
@@ -102,7 +107,16 @@
     font-weight: bold;
 }
 @media (max-width: 768px){
-    .navbar-brand {
-        font-size: 24px !important;
-    }
-    }
+.navbar-brand {
+     font-size: 24px !important;
+}
+}
+
+.img-head{
+    color: #001d74;
+    font-size: 12px;
+}
+
+.img-content{
+    font-size: 16px;
+}

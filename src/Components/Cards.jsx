@@ -12,8 +12,9 @@ class Card extends Component {
             <div className="image-wrapper">
                 <img class="team-image" src={this.state.photo}></img>
 
-                <div className="image-content">
-
+                <div className="image-hidden">
+                    <p className="img-head mt-3">Name</p>
+                    <p className="img-content">{this.state.name}</p>
                 </div>
                 <div className="profile-content">
                     <header>{this.state.name}</header>
