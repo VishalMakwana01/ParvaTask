@@ -1,3 +1,9 @@
+# Steps
+ 1. Clone repo
+ 2. npm install
+ 3. Run
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
