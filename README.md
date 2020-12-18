@@ -1,7 +1,7 @@
 # Steps
-# 1. Clone repo
-# 2. npm install
-# 3. Run
+ 1. Clone repo
+ 2. npm install
+ 3. Run
 
 
 # Getting Started with Create React App
